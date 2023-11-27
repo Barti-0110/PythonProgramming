@@ -1,22 +1,22 @@
-print("+ dodawanie")
-print("- odejmowanie")
-print("* mnożenie")
-print("/ dzielenie")
-print("** potęgowanie")
+print("+ add")
+print("- subtract")
+print("* multiplication")
+print("/division")
+print("** exponentiation")
 
-symbol_działania = input("Wybierz jedną z dostępnych opcji kalkulatora. ")
-a = float(input("Wprowadź pierwszą liczbę. "))
-b = float(input("Wprowadź drugą liczbę. "))
+simbol = input("Select one of the available calculator options. ")
+a = float(input("Enter the first number. "))
+b = float(input("Enter the second number. "))
 
-if symbol_działania == "+":
+if simbol == "+":
     print(a + b)
-elif symbol_działania == "-":
+elif simbol == "-":
     print(a - b)
-elif symbol_działania == "*":
+elif simbol  == "*":
     print(a * b)
-elif symbol_działania == "/":
+elif simbol == "/":
     print(a / b)
-elif symbol_działania == "**":
+elif simbol  == "**":
     print(a ** b)
 else:
-    print("Ten znak nie jest poprawny.")
+    print("Simbol isnt correct
