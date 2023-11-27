@@ -19,4 +19,4 @@ elif simbol == "/":
 elif simbol  == "**":
     print(a ** b)
 else:
-    print("Simbol isnt correct
+    print("simbol isnt correct")
