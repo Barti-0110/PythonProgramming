@@ -1,7 +1,7 @@
 print("+ add")
 print("- subtract")
 print("* multiplication")
-print("/division")
+print("/ division")
 print("** exponentiation")
 
 simbol = input("Select one of the available calculator options. ")
