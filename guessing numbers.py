@@ -1,6 +1,6 @@
 import random 
-number_min = 1
-number_max = 100
+number_min = float(input("Choose Min Number: "))
+number_max = float(input("Choose Max Number: "))
 random_number = random.randint(number_min, number_max)
 
 guess_number = None
