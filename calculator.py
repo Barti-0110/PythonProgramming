@@ -4,19 +4,19 @@ print("* multiplication")
 print("/ division")
 print("** exponentiation")
 
-simbol = input("Select one of the available calculator options. ")
+operator = input("Select one of the available calculator options. ")
 a = float(input("Enter the first number. "))
 b = float(input("Enter the second number. "))
 
-if simbol == "+":
+if operator == "+":
     print(a + b)
-elif simbol == "-":
+elif operator == "-":
     print(a - b)
-elif simbol  == "*":
+elif operator  == "*":
     print(a * b)
-elif simbol == "/":
+elif operator == "/":
     print(a / b)
-elif simbol  == "**":
+elif operator  == "**":
     print(a ** b)
 else:
-    print("simbol isnt correct")
+    print("Operator isnt correct.")
