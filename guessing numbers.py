@@ -15,4 +15,3 @@ while guess_number != random_number:
     else:
         print(f"Number of attempts {Attempts}")
         print("You guessed the number")
-        break
