@@ -7,7 +7,7 @@ guess_number = None
 Attempts = 0
 while guess_number != random_number:
     guess_number = int(input("Enter number:" ))
-    attempts += 1
+    Attempts += 1
     if random_number < guess_number:
         print("Too much")
     elif random_number > guess_number:
