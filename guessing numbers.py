@@ -4,7 +4,7 @@ number_max = float(input("Choose Max Number: "))
 random_number = random.randint(number_min, number_max)
 
 guess_number = None
-attempts = 0
+Attempts = 0
 while guess_number != random_number:
     guess_number = int(input("Enter number:" ))
     attempts += 1
