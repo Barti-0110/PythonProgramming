@@ -9,25 +9,25 @@ if computer == 1:
     print("Computer has choosen scissors")
     if user_choice == "Paper":
         print("Computer wins")
-    if user_choice == "Scissors":
+    elif user_choice == "Scissors":
         print("Tie")
-    if user_choice == "Rock":
+    elif user_choice == "Rock":
         print("Player Wins")
 
-if computer == 2:
+elif computer == 2:
     print("Computer has choosen Rock")
     if user_choice == "Paper":
         print("Player wins")
-    if user_choice == "Scissors":
+    elif user_choice == "Scissors":
         print("Computer Wins")
-    if user_choice == "Rock":
+    elif user_choice == "Rock":
         print("Tie")
 
-if computer == 3:
+elif computer == 3:
     print("Computer has choosen Paper")
     if user_choice == "Paper":
         print("Tie")
-    if user_choice == "Scissors":
+    elif user_choice == "Scissors":
         print("Player Wins")
-    if user_choice == "Rock":
+    elif user_choice == "Rock":
         print("Computer Wins ")
